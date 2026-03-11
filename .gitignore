@@ -1,0 +1,50 @@
+﻿# OS/editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+# VS Code
+.vscode/
+
+# Keil uVision user/session files
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.crf
+
+# Build outputs
+*.o
+*.obj
+*.d
+*.lst
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.sct
+*.lnp
+*.htm
+
+# Common tool output folders
+**/Objects/
+**/Listings/
+
+# Debug/flash tool logs
+JLinkLog.txt
+JLinkSettings.ini
+
+# Archives
+*.zip
+
+# Keep source/project files tracked
+!*.uvprojx
+!**/src/**
+!**/inc/**
+!**/user/**
